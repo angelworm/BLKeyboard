@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9859B44818F638D200675D72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9859B44718F638D200675D72 /* Cocoa.framework */; };
+		9859B45218F638D200675D72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9859B45018F638D200675D72 /* InfoPlist.strings */; };
+		9859B45418F638D200675D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9859B45318F638D200675D72 /* main.m */; };
+		9859B45818F638D200675D72 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9859B45618F638D200675D72 /* Credits.rtf */; };
+		9859B45B18F638D200675D72 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9859B45A18F638D200675D72 /* AGAppDelegate.m */; };
+		9859B45E18F638D200675D72 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9859B45C18F638D200675D72 /* MainMenu.xib */; };
+		9859B46018F638D200675D72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9859B45F18F638D200675D72 /* Images.xcassets */; };
+		9859B46718F638D200675D72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9859B46618F638D200675D72 /* XCTest.framework */; };
+		9859B46818F638D200675D72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9859B44718F638D200675D72 /* Cocoa.framework */; };
+		9859B47018F638D200675D72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9859B46E18F638D200675D72 /* InfoPlist.strings */; };
+		9859B47218F638D200675D72 /* BluetoothKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9859B47118F638D200675D72 /* BluetoothKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9859B46918F638D200675D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9859B43C18F638D200675D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9859B44318F638D200675D72;
+			remoteInfo = BluetoothKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9859B44418F638D200675D72 /* BluetoothKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9859B44718F638D200675D72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9859B44A18F638D200675D72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9859B44B18F638D200675D72 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9859B44C18F638D200675D72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9859B44F18F638D200675D72 /* BluetoothKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothKeyboard-Info.plist"; sourceTree = "<group>"; };
+		9859B45118F638D200675D72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9859B45318F638D200675D72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9859B45518F638D200675D72 /* BluetoothKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		9859B45718F638D200675D72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9859B45918F638D200675D72 /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		9859B45A18F638D200675D72 /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		9859B45D18F638D200675D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9859B45F18F638D200675D72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9859B46518F638D200675D72 /* BluetoothKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9859B46618F638D200675D72 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9859B46D18F638D200675D72 /* BluetoothKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		9859B46F18F638D200675D72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9859B47118F638D200675D72 /* BluetoothKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothKeyboardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9859B44118F638D200675D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9859B44818F638D200675D72 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9859B46218F638D200675D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9859B46818F638D200675D72 /* Cocoa.framework in Frameworks */,
+				9859B46718F638D200675D72 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9859B43B18F638D200675D72 = {
+			isa = PBXGroup;
+			children = (
+				9859B44D18F638D200675D72 /* BluetoothKeyboard */,
+				9859B46B18F638D200675D72 /* BluetoothKeyboardTests */,
+				9859B44618F638D200675D72 /* Frameworks */,
+				9859B44518F638D200675D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9859B44518F638D200675D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9859B44418F638D200675D72 /* BluetoothKeyboard.app */,
+				9859B46518F638D200675D72 /* BluetoothKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9859B44618F638D200675D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9859B44718F638D200675D72 /* Cocoa.framework */,
+				9859B46618F638D200675D72 /* XCTest.framework */,
+				9859B44918F638D200675D72 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9859B44918F638D200675D72 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9859B44A18F638D200675D72 /* AppKit.framework */,
+				9859B44B18F638D200675D72 /* CoreData.framework */,
+				9859B44C18F638D200675D72 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9859B44D18F638D200675D72 /* BluetoothKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9859B45918F638D200675D72 /* AGAppDelegate.h */,
+				9859B45A18F638D200675D72 /* AGAppDelegate.m */,
+				9859B45C18F638D200675D72 /* MainMenu.xib */,
+				9859B45F18F638D200675D72 /* Images.xcassets */,
+				9859B44E18F638D200675D72 /* Supporting Files */,
+			);
+			path = BluetoothKeyboard;
+			sourceTree = "<group>";
+		};
+		9859B44E18F638D200675D72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9859B44F18F638D200675D72 /* BluetoothKeyboard-Info.plist */,
+				9859B45018F638D200675D72 /* InfoPlist.strings */,
+				9859B45318F638D200675D72 /* main.m */,
+				9859B45518F638D200675D72 /* BluetoothKeyboard-Prefix.pch */,
+				9859B45618F638D200675D72 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9859B46B18F638D200675D72 /* BluetoothKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9859B47118F638D200675D72 /* BluetoothKeyboardTests.m */,
+				9859B46C18F638D200675D72 /* Supporting Files */,
+			);
+			path = BluetoothKeyboardTests;
+			sourceTree = "<group>";
+		};
+		9859B46C18F638D200675D72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9859B46D18F638D200675D72 /* BluetoothKeyboardTests-Info.plist */,
+				9859B46E18F638D200675D72 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9859B44318F638D200675D72 /* BluetoothKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9859B47518F638D200675D72 /* Build configuration list for PBXNativeTarget "BluetoothKeyboard" */;
+			buildPhases = (
+				9859B44018F638D200675D72 /* Sources */,
+				9859B44118F638D200675D72 /* Frameworks */,
+				9859B44218F638D200675D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothKeyboard;
+			productName = BluetoothKeyboard;
+			productReference = 9859B44418F638D200675D72 /* BluetoothKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9859B46418F638D200675D72 /* BluetoothKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9859B47818F638D200675D72 /* Build configuration list for PBXNativeTarget "BluetoothKeyboardTests" */;
+			buildPhases = (
+				9859B46118F638D200675D72 /* Sources */,
+				9859B46218F638D200675D72 /* Frameworks */,
+				9859B46318F638D200675D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9859B46A18F638D200675D72 /* PBXTargetDependency */,
+			);
+			name = BluetoothKeyboardTests;
+			productName = BluetoothKeyboardTests;
+			productReference = 9859B46518F638D200675D72 /* BluetoothKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9859B43C18F638D200675D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "@Angelworm_";
+				TargetAttributes = {
+					9859B46418F638D200675D72 = {
+						TestTargetID = 9859B44318F638D200675D72;
+					};
+				};
+			};
+			buildConfigurationList = 9859B43F18F638D200675D72 /* Build configuration list for PBXProject "BluetoothKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9859B43B18F638D200675D72;
+			productRefGroup = 9859B44518F638D200675D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9859B44318F638D200675D72 /* BluetoothKeyboard */,
+				9859B46418F638D200675D72 /* BluetoothKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9859B44218F638D200675D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9859B45218F638D200675D72 /* InfoPlist.strings in Resources */,
+				9859B46018F638D200675D72 /* Images.xcassets in Resources */,
+				9859B45818F638D200675D72 /* Credits.rtf in Resources */,
+				9859B45E18F638D200675D72 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9859B46318F638D200675D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9859B47018F638D200675D72 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9859B44018F638D200675D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9859B45B18F638D200675D72 /* AGAppDelegate.m in Sources */,
+				9859B45418F638D200675D72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9859B46118F638D200675D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9859B47218F638D200675D72 /* BluetoothKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9859B46A18F638D200675D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9859B44318F638D200675D72 /* BluetoothKeyboard */;
+			targetProxy = 9859B46918F638D200675D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9859B45018F638D200675D72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9859B45118F638D200675D72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9859B45618F638D200675D72 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9859B45718F638D200675D72 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9859B45C18F638D200675D72 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9859B45D18F638D200675D72 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9859B46E18F638D200675D72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9859B46F18F638D200675D72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9859B47318F638D200675D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9859B47418F638D200675D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9859B47618F638D200675D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothKeyboard/BluetoothKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothKeyboard/BluetoothKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9859B47718F638D200675D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothKeyboard/BluetoothKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothKeyboard/BluetoothKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9859B47918F638D200675D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluetoothKeyboard.app/Contents/MacOS/BluetoothKeyboard";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothKeyboard/BluetoothKeyboard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BluetoothKeyboardTests/BluetoothKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9859B47A18F638D200675D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluetoothKeyboard.app/Contents/MacOS/BluetoothKeyboard";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothKeyboard/BluetoothKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothKeyboardTests/BluetoothKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9859B43F18F638D200675D72 /* Build configuration list for PBXProject "BluetoothKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9859B47318F638D200675D72 /* Debug */,
+				9859B47418F638D200675D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9859B47518F638D200675D72 /* Build configuration list for PBXNativeTarget "BluetoothKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9859B47618F638D200675D72 /* Debug */,
+				9859B47718F638D200675D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9859B47818F638D200675D72 /* Build configuration list for PBXNativeTarget "BluetoothKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9859B47918F638D200675D72 /* Debug */,
+				9859B47A18F638D200675D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9859B43C18F638D200675D72 /* Project object */;
+}
