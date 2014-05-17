@@ -7,12 +7,22 @@
 //
 
 #import "AGAppDelegate.h"
+#import "AGKeyboardPeripheralManager.h"
 
-@implementation AGAppDelegate
+@implementation AGAppDelegate {
+    AGKeyboardPeripheralManager *kpm;
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    kpm = [[AGKeyboardPeripheralManager alloc] init];
+}
+
+- (IBAction)keytype:(NSTextField *)sender {
+    [kpm sendKey:[sender.stringValue characterAtIndex:sender.stringValue.length-1]];
+}
+- (IBAction)stop:(id)sender {
+    [kpm stop];
 }
 
 @end

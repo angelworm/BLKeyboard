@@ -18,6 +18,8 @@
 		9859B46818F638D200675D72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9859B44718F638D200675D72 /* Cocoa.framework */; };
 		9859B47018F638D200675D72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9859B46E18F638D200675D72 /* InfoPlist.strings */; };
 		9859B47218F638D200675D72 /* BluetoothKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9859B47118F638D200675D72 /* BluetoothKeyboardTests.m */; };
+		985D537D1904FFED00DC4E2F /* NSData+AGByteInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 985D537C1904FFED00DC4E2F /* NSData+AGByteInitializer.m */; };
+		98DA997318F7F43D008D128D /* AGKeyboardPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DA997218F7F43D008D128D /* AGKeyboardPeripheralManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		9859B46D18F638D200675D72 /* BluetoothKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothKeyboardTests-Info.plist"; sourceTree = "<group>"; };
 		9859B46F18F638D200675D72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9859B47118F638D200675D72 /* BluetoothKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothKeyboardTests.m; sourceTree = "<group>"; };
+		985D537B1904FFED00DC4E2F /* NSData+AGByteInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AGByteInitializer.h"; sourceTree = "<group>"; };
+		985D537C1904FFED00DC4E2F /* NSData+AGByteInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AGByteInitializer.m"; sourceTree = "<group>"; };
+		98DA997118F7F43D008D128D /* AGKeyboardPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGKeyboardPeripheralManager.h; sourceTree = "<group>"; };
+		98DA997218F7F43D008D128D /* AGKeyboardPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGKeyboardPeripheralManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 			children = (
 				9859B45918F638D200675D72 /* AGAppDelegate.h */,
 				9859B45A18F638D200675D72 /* AGAppDelegate.m */,
+				98DA997118F7F43D008D128D /* AGKeyboardPeripheralManager.h */,
+				98DA997218F7F43D008D128D /* AGKeyboardPeripheralManager.m */,
+				985D537B1904FFED00DC4E2F /* NSData+AGByteInitializer.h */,
+				985D537C1904FFED00DC4E2F /* NSData+AGByteInitializer.m */,
 				9859B45C18F638D200675D72 /* MainMenu.xib */,
 				9859B45F18F638D200675D72 /* Images.xcassets */,
 				9859B44E18F638D200675D72 /* Supporting Files */,
@@ -253,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DA997318F7F43D008D128D /* AGKeyboardPeripheralManager.m in Sources */,
 				9859B45B18F638D200675D72 /* AGAppDelegate.m in Sources */,
 				9859B45418F638D200675D72 /* main.m in Sources */,
+				985D537D1904FFED00DC4E2F /* NSData+AGByteInitializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +479,7 @@
 				9859B47718F638D200675D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9859B47818F638D200675D72 /* Build configuration list for PBXNativeTarget "BluetoothKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				9859B47A18F638D200675D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
